@@ -31,38 +31,6 @@ Here are some of the cool projects I’ve been working on:
 I am WebPro, passionate about cybersecurity, ethical hacking, and building tools to create a more secure future. I love experimenting with new technologies, finding vulnerabilities, and sharing my knowledge with the community.
 
 ---
-## 🛠️ Tools of the Trade 🛠️
-
-Here are some of the essential tools every cybersecurity enthusiast should have in their arsenal. These tools will help you scan, analyze, and secure systems effectively.
-
-- **Nmap** - The network scanner every hacker loves. Use it to discover open ports, services, and vulnerabilities.
-  - 📖 [Nmap Documentation](https://nmap.org/book/)
-  - 🛠️ [Install Nmap](https://nmap.org/download.html)
-  
-- **Wireshark** - A network protocol analyzer to capture and interactively browse traffic on a computer network.
-  - 📖 [Wireshark Documentation](https://www.wireshark.org/docs/)
-  - 🛠️ [Download Wireshark](https://www.wireshark.org/download.html)
-
-- **Metasploit** - A powerful penetration testing framework to exploit known vulnerabilities.
-  - 📖 [Metasploit Documentation](https://www.metasploit.com/)
-  - 🛠️ [Try Metasploit](https://www.metasploit.com/download)
-
-- **Burp Suite** - A web vulnerability scanner used for web application security assessments.
-  - 📖 [Burp Suite Documentation](https://portswigger.net/burp)
-  - 🛠️ [Download Burp Suite](https://portswigger.net/burp/communitydownload)
-
-- **John the Ripper** - A fast password cracker used for security auditing.
-  - 📖 [John the Ripper Documentation](https://www.openwall.com/john/)
-  - 🛠️ [Download John the Ripper](https://www.openwall.com/john/)
-
-- **Kali Linux** - A Debian-based Linux distribution for penetration testing.
-  - 📖 [Kali Linux Documentation](https://www.kali.org/docs/)
-  - 🛠️ [Get Kali Linux](https://www.kali.org/downloads/)
-
-- **OWASP ZAP** - An open-source web application security scanner for finding vulnerabilities in web apps.
-  - 📖 [OWASP ZAP Documentation](https://www.zaproxy.org/docs/)
-  - 🛠️ [Download OWASP ZAP](https://www.zaproxy.org/download/)
----
 ## 🕵️ Cybersecurity Challenge 🕵️
 
 Want to test your skills? Try to crack the password in our **[Password Cracker Game](./cyber-game.html)** and see how quickly you can break in!
