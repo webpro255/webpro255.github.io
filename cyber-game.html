@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cybersecurity Game: Password Cracker</title>
+  <style>
+    body {
+      font-family: "Courier New", Courier, monospace;
+      background-color: #0b0c10;
+      color: #66fcf1;
+      text-align: center;
+      padding: 20px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 18px;
+      background-color: #1f2833;
+      color: #66fcf1;
+      border: none;
+      margin: 5px;
+    }
+    button:hover {
+      background-color: #45a29e;
+    }
+    #console {
+      font-family: "Courier New", Courier, monospace;
+      color: #66fcf1;
+      background-color: #1f2833;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: left;
+      max-width: 600px;
+      margin: 0 auto;
+      height: 300px;
+      overflow-y: scroll;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔓 Password Cracker 🔓</h1>
+  <p>Try to crack the password! It's a 4-letter word.</p>
+  <input type="text" id="userInput" maxlength="4" placeholder="Enter guess" style="text-transform: uppercase;">
+  <button onclick="checkPassword()">Submit Guess</button>
+
+  <div id="console">
+    <p>Terminal:</p>
+    <p>Enter a 4-letter password guess.</p>
+  </div>
+
+  <script>
+    const password = 'LOCK'; // You can change this to any 4-letter word
+    let attempts = 0;
+
+    function checkPassword() {
+      const userGuess = document.getElementById('userInput').value.toUpperCase();
+      const consoleDiv = document.getElementById('console');
+
+      attempts++;
+      let message = '';
+
+      if (userGuess === password) {
+        message = `Access Granted! You cracked the password in ${attempts} attempts!`;
+      } else {
+        message = `Attempt ${attempts}: Incorrect password - Try again!`;
+      }
+
+      consoleDiv.innerHTML += `<p>${message}</p>`;
+      consoleDiv.scrollTop = consoleDiv.scrollHeight;
+
+      // Clear input
+      document.getElementById('userInput').value = '';
+    }
+  </script>
+</body>
+</html>
