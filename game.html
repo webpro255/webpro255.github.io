@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Number Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0b0c10;
+      color: #66fcf1;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 18px;
+    }
+    button {
+      background-color: #1f2833;
+      color: #66fcf1;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a29e;
+    }
+  </style>
+</head>
+<body>
+  <h1>Guess the Number Game</h1>
+  <p>I’m thinking of a number between 1 and 100...</p>
+  <input type="number" id="guessInput" placeholder="Enter your guess">
+  <button onclick="checkGuess()">Submit Guess</button>
+  <p id="resultMessage"></p>
+
+  <script>
+    let randomNumber = Math.floor(Math.random() * 100) + 1;
+
+    function checkGuess() {
+      let userGuess = document.getElementById('guessInput').value;
+      let message = '';
+
+      if (userGuess == randomNumber) {
+        message = '🎉 Congratulations! You guessed the correct number!';
+      } else if (userGuess > randomNumber) {
+        message = '📉 Too high! Try again.';
+      } else {
+        message = '📈 Too low! Try again.';
+      }
+
+      document.getElementById('resultMessage').innerHTML = message;
+    }
+  </script>
+</body>
+</html>
