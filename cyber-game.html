@@ -39,8 +39,8 @@
 </head>
 <body>
   <h1>🔓 Password Cracker 🔓</h1>
-  <p>Try to crack the password! It's a 4-letter word.</p>
-  <input type="text" id="userInput" maxlength="4" placeholder="Enter guess" style="text-transform: uppercase;">
+  <p>Try to crack the password! It's a 11-letter word.</p>
+  <input type="text" id="userInput" maxlength="11" placeholder="Enter guess" style="text-transform: uppercase;">
   <button onclick="checkPassword()">Submit Guess</button>
 
   <div id="console">
@@ -49,7 +49,7 @@
   </div>
 
   <script>
-    const password = 'SOURCE2EASY'; // <----Not The Password
+    const password = 'SOURCE2EASY'; 
     let attempts = 0;
 
     function checkPassword() {
