@@ -31,6 +31,11 @@ Here are some of the cool projects I’ve been working on:
 I am WebPro, passionate about cybersecurity, ethical hacking, and building tools to create a more secure future. I love experimenting with new technologies, finding vulnerabilities, and sharing my knowledge with the community.
 
 ---
+## 🎮 Play a Game 🎮
+
+Feeling like taking a break? Try your hand at the **[Guess the Number Game](./game.html)** and see if you can guess the correct number!
+
+---
 
 ## 🤝 Connect with Me 🤝
 
