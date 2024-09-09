@@ -22,7 +22,8 @@ Here are some of the cool projects I’ve been working on:
 - 📡 [Network Traffic Visualization](https://github.com/webpro255/network-traffic-visualization) - Visualize network traffic in a clear and concise way.
 - 🔧 [IT Support Scripts](https://github.com/webpro255/it-support-scripts) - A collection of useful scripts for IT support.
 - 🔐 [IAM Policy Simulator](https://github.com/webpro255/iam-policy-simulator) - A project to simulate IAM policies for cloud security.
-
+- 🔍 [Network Scanning Tools](https://github.com/webpro255/network-scanning-tools) - A collection of tools for network scanning and reconnaissance.
+- 📈 [Network Anomaly Detection](https://github.com/webpro255/network-anomaly-detection) - Detect network anomalies using these tools and techniques.
 ---
 
 ## 👨‍💻 About Me 👨‍💻
