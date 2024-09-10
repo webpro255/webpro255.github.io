@@ -5,9 +5,23 @@ title: Home
 
 # 🖥️ Welcome to WebPro's Hacker Space 🖥️
 
-<img src="https://github.githubassets.com/assets/mona-loading-default-c3c7aad1282f.gif" alt="Hacker Mascot" width="100" style="float:right; margin: 10px;">
+<img class="moving-mascot" src="https://github.githubassets.com/assets/mona-loading-default-c3c7aad1282f.gif" alt="Hacker Mascot" width="100" style="margin: 10px;">
 
+<style>
+    @keyframes moveAcross {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(100%);
+        }
+    }
 
+    .moving-mascot {
+        position: relative;
+        animation: moveAcross 5s linear infinite;
+    }
+</style>
 
 Welcome to the dark side of the internet, where we explore cybersecurity, vulnerabilities and even cutting-edge technology.
 
