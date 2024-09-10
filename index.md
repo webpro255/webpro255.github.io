@@ -19,7 +19,7 @@ title: Home
 
     .moving-mascot {
         position: relative;
-        animation: moveAcross 30s linear infinite;
+        animation: moveAcross 10s linear infinite;
     }
 </style>
 
