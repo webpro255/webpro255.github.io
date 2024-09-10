@@ -9,7 +9,7 @@ title: Home
 
 
 
-Welcome to the dark side of the internet, where we explore cybersecurity, vulnerabilities, and cutting-edge technology.
+Welcome to the dark side of the internet, where we explore cybersecurity, vulnerabilities and even cutting-edge technology.
 
 ---
 
