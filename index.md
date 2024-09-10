@@ -33,6 +33,7 @@ Welcome to the dark side of the internet, where we explore cybersecurity, vulner
 
 Here are some of the cool projects I’ve been working on:
 
+- 📡 [Exploitation-Module](https://github.com/webpro255/Exploitation-Module) – Automated tool for scanning, fetching, and logging exploit attempts.
 - 🛠️ [HiddenSecTools](https://github.com/webpro255/HiddenSecTools) – A repository of hidden security tools.
 - 🔍 [EventViewer-LogHunting](https://github.com/webpro255/EventViewer-LogHunting) – Hunt for security-relevant logs with Windows Event Viewer.
 - 🛡️ [WordPress Forensics](https://github.com/webpro255/wordpress-forensics-tool) – Forensics tools specifically for WordPress investigations.
