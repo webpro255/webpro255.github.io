@@ -19,7 +19,7 @@ title: Home
 
     .moving-mascot {
         position: absolute;
-        top: 50px; /* Adjust as needed */
+        top: 1000px; /* Adjust as needed */
         right: -100px; /* Start off the right side of the page */
         animation: moveAcross 5s linear infinite; /* Moves across the screen in 5 seconds */
     }
