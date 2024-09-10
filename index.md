@@ -10,16 +10,18 @@ title: Home
 <style>
     @keyframes moveAcross {
         from {
-            transform: translateX(100%);
+            right: -100px; /* Start off-screen on the right */
         }
         to {
-            transform: translateX(0);
+            right: 100%; /* Move all the way to the left */
         }
     }
 
     .moving-mascot {
-        position: relative;
-        animation: moveAcross 10s linear infinite;
+        position: absolute;
+        top: 50px; /* Adjust as needed */
+        right: -100px; /* Start off the right side of the page */
+        animation: moveAcross 5s linear infinite; /* Moves across the screen in 5 seconds */
     }
 </style>
 
