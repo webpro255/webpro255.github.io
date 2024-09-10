@@ -5,25 +5,7 @@ title: Home
 
 # 🖥️ Welcome to WebPro's Hacker Space 🖥️
 
-<img class="moving-mascot" src="https://github.githubassets.com/assets/mona-loading-default-c3c7aad1282f.gif" alt="Hacker Mascot" width="100" style="margin: 10px;">
 
-<style>
-    @keyframes moveAcross {
-        from {
-            right: -100px; /* Start off-screen on the right */
-        }
-        to {
-            right: 100%; /* Move all the way to the left */
-        }
-    }
-
-    .moving-mascot {
-        position: absolute;
-        top: 800px; /* Adjust as needed */
-        right: -100px; /* Start off the right side of the page */
-        animation: moveAcross 20s linear infinite; /* Moves across the screen in 5 seconds */
-    }
-</style>
 
 Welcome to the dark side of the internet, where we explore cybersecurity, vulnerabilities and even cutting-edge technology.
 
@@ -49,6 +31,27 @@ Here are some of the cool projects I’ve been working on:
 ## 👨‍💻 About Me 👨‍💻
 
 I am WebPro, passionate about cybersecurity, ethical hacking, and building tools to create a more secure future. I love experimenting with new technologies, finding vulnerabilities and sharing my knowledge with the community.
+
+<img class="moving-mascot" src="https://github.githubassets.com/assets/mona-loading-default-c3c7aad1282f.gif" alt="Hacker Mascot" width="100" style="margin: 10px;">
+
+<style>
+    @keyframes moveAcross {
+        from {
+            right: -100px; /* Start off-screen on the right */
+        }
+        to {
+            right: 100%; /* Move all the way to the left */
+        }
+    }
+
+    .moving-mascot {
+        position: absolute;
+        top: 800px; /* Adjust as needed */
+        right: -100px; /* Start off the right side of the page */
+        animation: moveAcross 20s linear infinite; /* Moves across the screen in 5 seconds */
+    }
+</style>
+
 
 ---
 ## 🕵️ Cybersecurity Challenge 🕵️
