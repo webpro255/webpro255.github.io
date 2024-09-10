@@ -77,6 +77,7 @@ Skip the noise and capture just the GET requests to hunt for interesting activit
   dns.qry.name == "evil.com"
   ```
 Target specific DNS queries to detect if someone's reaching out to malicious domains.
+
 ### 🔒 3. Bypass Techniques
 - Bypass WAF using SQLMap with tamper scripts:
 ```
@@ -90,6 +91,7 @@ curl -A "Googlebot/2.1 (+http://www.google.com/bot.html)" http://target.com
 
 ```
 Impersonate a search engine crawler to bypass access restrictions.
+
 ### 🛡️ 4. Advanced Reverse Shells
 - Obfuscated Netcat reverse shell:
 ```
