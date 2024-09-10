@@ -166,4 +166,23 @@ http.request.method == "GET"
 ## 🤝 Connect with Me 🤝
 
 Follow me on [GitHub](https://github.com/webpro255) for the latest updates, tools, and resources!
+<img class="moving-mascot" src="https://github.githubassets.com/assets/mona-loading-default-c3c7aad1282f.gif" alt="Hacker Mascot" width="100" style="margin: 10px;">
+
+<style>
+    @keyframes moveAcross {
+        from {
+            right: -100px; /* Start off-screen on the right */
+        }
+        to {
+            right: 100%; /* Move all the way to the left */
+        }
+    }
+
+    .moving-mascot {
+        position: absolute;
+        top: 50px; /* Adjust as needed */
+        right: -100px; /* Start off the right side of the page */
+        animation: moveAcross 20s linear infinite; /* Moves across the screen in 5 seconds */
+    }
+</style>
 
