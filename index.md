@@ -5,7 +5,9 @@ title: Home
 
 # 🖥️ Welcome to WebPro's Hacker Space 🖥️
 
-![Hacker Banner]([https://user-images.githubusercontent.com/hacker-image.png](https://repository-images.githubusercontent.com/854871320/ff257a6b-d569-48db-a79c-6df7594b71b6))
+<img src="https://github.githubassets.com/assets/mona-loading-default-c3c7aad1282f.gif" alt="Hacker Mascot" width="100" style="float:right; margin: 10px;">
+
+
 
 Welcome to the dark side of the internet, where we explore cybersecurity, vulnerabilities, and cutting-edge technology.
 
