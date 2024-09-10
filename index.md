@@ -52,7 +52,7 @@ I am WebPro, passionate about cybersecurity, ethical hacking, and building tools
 ---
 ## 🕵️ Cybersecurity Challenge 🕵️
 
-Want to test your skills? Try to crack the password in our **[Password Cracker Game](./cyber-game.html)** and see how quickly you can break in!
+Want to test your skills? Try to crack the password in my **[Password Cracker Game](./cyber-game.html)** and see how quickly you can break in!
 
 ## 🎮 Play another Game 🎮
 
