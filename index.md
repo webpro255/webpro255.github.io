@@ -49,7 +49,7 @@ Here are some of the cool projects I’ve been working on:
 
 ## 👨‍💻 About Me 👨‍💻
 
-I am WebPro, passionate about cybersecurity, ethical hacking, and building tools to create a more secure future. I love experimenting with new technologies, finding vulnerabilities and sharing my knowledge with the community.
+I am WebPro, passionate about cybersecurity, ethical hacking and building tools. I love experimenting with new technologies, finding vulnerabilities and sharing my knowledge with the community.
 
 ---
 ## 🕵️ Cybersecurity Challenge 🕵️
