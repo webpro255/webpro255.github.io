@@ -257,8 +257,9 @@ Phishing has evolved into a complex craft, with attackers using sophisticated te
 
 ### **Pro Tips**:
 - Experiment with different encoding and fragmentation combinations to see which methods bypass specific email clients and security tools.
-- Always use such techniques in ethical, controlled environments to better understand and defend against sophisticated phishing threats.
 
 ## 🤝 Connect with Me 🤝
 
 Follow me on [GitHub](https://github.com/webpro255) for the latest updates, tools, and resources!
+Always use such techniques in ethical, controlled environments to better understand and defend against sophisticated threats.
+
