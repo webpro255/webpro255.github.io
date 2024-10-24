@@ -164,6 +164,100 @@ http.request.method == "GET"
 
 💡 **Bonus Tip**: Always remember to document your findings in detail. Hacking without reporting is just half the work. 😉
 
+---
+## 🕵️ 8. Advanced Phishing Tactics 🕵️
+
+Phishing has evolved into a complex craft, with attackers using sophisticated techniques to evade detection. Below are some **advanced, lesser-known phishing tactics** involving fragmentation and evasion, making it a unique addition to your hacker toolkit:
+
+#### **1. Fragmented Links in Phishing Emails**
+   - **Technique**: Split a malicious URL into multiple parts using HTML encoding or JavaScript fragments. This bypasses email filters that scan for specific malicious patterns.
+   - **How**: Use JavaScript to reconstruct the URL upon user interaction.
+   - **Example**:
+     ```html
+     <a href="http://safe-site.com/#frag1">Check this out</a>
+     <!-- Later on the page -->
+     <a href="frag2.com">More Info</a>
+     <script>
+       window.location.href = "http://safe-site.com/" + "frag2.com";
+     </script>
+     ```
+
+#### **2. Multipart MIME Attachments**
+   - **Technique**: Split a malicious payload across multiple MIME parts in an email attachment. Each part appears safe, but together they form a dangerous file.
+   - **How**: Use `base64` encoding for parts and let the email client reassemble them.
+   - **Example**:
+     ```bash
+     --==_MIME-Boundary
+     Content-Type: application/octet-stream; name="part1"
+     
+     (base64-encoded malicious segment)
+     --==_MIME-Boundary
+     Content-Type: application/octet-stream; name="part2"
+     
+     (base64-encoded malicious segment)
+     --==_MIME-Boundary--
+     ```
+
+#### **3. Obfuscated URLs Using HTML Encoding**
+   - **Technique**: Encode URLs using HTML entities to obfuscate the destination. Multiple encoding layers make it hard for standard scanners to detect.
+   - **How**: Use `%` encoding to hide URL parts.
+   - **Example**:
+     ```html
+     <a href="http://%68%61%63%6B%65%72.com/%70%61%79%6C%6F%61%64">Click Here</a>
+     ```
+
+#### **4. Fragmented JavaScript Payloads**
+   - **Technique**: Serve malicious JavaScript in fragments across different files, with each file appearing safe. The full attack is executed only when all fragments are loaded.
+   - **How**: Use `<script>` tags to pull in pieces of malicious code.
+   - **Example**:
+     ```html
+     <script src="legit-part1.js"></script>
+     <script src="legit-part2.js"></script>
+     <!-- Fully executes only if both parts are loaded -->
+     ```
+
+#### **5. Phishing Redirects with URL Fragments**
+   - **Technique**: Utilize URL fragments (like `#`) to create dynamic redirects. Fragments are invisible to servers, making them harder to detect by security tools.
+   - **How**: Use JavaScript to read and act on URL fragments.
+   - **Example**:
+     ```html
+     <a href="https://trusted-site.com/#hidden-frag">Access Now</a>
+     <script>
+       if (window.location.hash === "#hidden-frag") {
+         window.location.href = "http://malicious-site.com";
+       }
+     </script>
+     ```
+
+#### **6. Hidden Payloads in SVG Files**
+   - **Technique**: Store phishing scripts inside SVG files, using SVG's ability to hold JavaScript for stealthy delivery.
+   - **How**: Embed obfuscated JavaScript within the SVG `<script>` tag.
+   - **Example**:
+     ```html
+     <svg>
+       <script>
+         var part1 = "alert('Gotcha! ";
+         var part2 = "You’ve been phished!')";
+         eval(part1 + part2);
+       </script>
+     </svg>
+     ```
+
+#### **7. Obfuscating Content with CSS**
+   - **Technique**: Hide malicious links or content within CSS rules. The full phishing payload only becomes visible when rendered in the email client.
+   - **How**: Use CSS `:after` pseudo-elements to construct links in parts.
+   - **Example**:
+     ```html
+     <style>
+       .hidden1:after { content: 'http://'; }
+       .hidden2:after { content: 'phish-site.com'; }
+     </style>
+     <div class="hidden1"></div><div class="hidden2"></div>
+     ```
+
+### **Pro Tips**:
+- Experiment with different encoding and fragmentation combinations to see which methods bypass specific email clients and security tools.
+- Always use such techniques in ethical, controlled environments to better understand and defend against sophisticated phishing threats.
 
 ## 🤝 Connect with Me 🤝
 
