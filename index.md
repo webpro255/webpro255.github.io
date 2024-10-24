@@ -257,7 +257,6 @@ Phishing has evolved into a complex craft, with attackers using sophisticated te
 
 Follow me on [GitHub](https://github.com/webpro255) for the latest updates, tools, and resources!
 Always use such techniques in ethical, controlled environments to better understand and defend against sophisticated threats.
-<img class="moving-mascot" src="https://github.githubassets.com/assets/mona-loading-default-c3c7aad1282f.gif" alt="Hacker Mascot" width="100" style="margin: 10px;">
 
 <style>
     @keyframes moveAcross {
