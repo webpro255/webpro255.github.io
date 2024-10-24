@@ -4,27 +4,6 @@ title: Home
 ---
 
 # 🖥️ Welcome to WebPro's Hacker Space 🖥️
-<img class="moving-mascot" src="https://github.githubassets.com/assets/mona-loading-default-c3c7aad1282f.gif" alt="Hacker Mascot" width="100" style="margin: 10px;">
-
-<style>
-    @keyframes moveAcross {
-        from {
-            right: -100px; /* Start off-screen on the right */
-        }
-        to {
-            right: 100%; /* Move all the way to the left */
-        }
-    }
-
-    .moving-mascot {
-        position: absolute;
-        top: 800px; /* Adjust as needed */
-        right: -100px; /* Start off the right side of the page */
-        animation: moveAcross 20s linear infinite; /* Moves across the screen in 5 seconds */
-    }
-</style>
-
-
 
 Welcome to the dark side of the internet, where we explore cybersecurity, vulnerabilities and even cutting-edge technology.
 
@@ -262,4 +241,23 @@ Phishing has evolved into a complex craft, with attackers using sophisticated te
 
 Follow me on [GitHub](https://github.com/webpro255) for the latest updates, tools, and resources!
 Always use such techniques in ethical, controlled environments to better understand and defend against sophisticated threats.
+<img class="moving-mascot" src="https://github.githubassets.com/assets/mona-loading-default-c3c7aad1282f.gif" alt="Hacker Mascot" width="100" style="margin: 10px;">
+
+<style>
+    @keyframes moveAcross {
+        from {
+            right: -100px; /* Start off-screen on the right */
+        }
+        to {
+            right: 100%; /* Move all the way to the left */
+        }
+    }
+
+    .moving-mascot {
+        position: absolute;
+        top: 800px; /* Adjust as needed */
+        right: -100px; /* Start off the right side of the page */
+        animation: moveAcross 20s linear infinite; /* Moves across the screen in 5 seconds */
+    }
+</style>
 
