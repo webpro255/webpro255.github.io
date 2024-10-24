@@ -255,7 +255,7 @@ Always use such techniques in ethical, controlled environments to better underst
 
     .moving-mascot {
         position: absolute;
-        top: 1400px; /* Adjust as needed */
+        top: 1800px; /* Adjust as needed */
         right: -100px; /* Start off the right side of the page */
         animation: moveAcross 20s linear infinite; /* Moves across the screen in 5 seconds */
     }
