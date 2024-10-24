@@ -2,7 +2,23 @@
 layout: default
 title: Home
 ---
+<style>
+    @keyframes moveAcross {
+        from {
+            right: -100px; /* Start off-screen on the right */
+        }
+        to {
+            right: 100%; /* Move all the way to the left */
+        }
+    }
 
+    .moving-mascot {
+        position: absolute;
+        top: 89px; /* Adjust as needed */
+        right: -100px; /* Start off the right side of the page */
+        animation: moveAcross 20s linear infinite; /* Moves across the screen in 5 seconds */
+    }
+</style>
 # 🖥️ Welcome to WebPro's Hacker Space 🖥️
 
 Welcome to the dark side of the internet, where we explore cybersecurity, vulnerabilities and even cutting-edge technology.
