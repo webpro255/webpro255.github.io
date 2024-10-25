@@ -162,7 +162,7 @@ http.request.method == "GET"
 ---
 ## 🕵️ 8. Advanced Phishing Tactics 🕵️
 
-Phishing has evolved into a complex craft, with attackers using sophisticated techniques to evade detection. Below are some **advanced, lesser-known phishing tactics** involving fragmentation and evasion, making it a unique addition to your hacker toolkit:
+Phishing has evolved into fragmentation and evasion
 
 #### **1. Fragmented Links in Phishing Emails**
    - **Technique**: Split a malicious URL into multiple parts using HTML encoding or JavaScript fragments. This bypasses email filters that scan for specific malicious patterns.
